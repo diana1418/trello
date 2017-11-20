@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    display: block;
+}
+
+header li {
+    display: inline-block;
+}
+
+ul li span {
+    color: #fff;
+    margin: 2vh;
+    padding: 2vh;
+    background-color: #787878;
+}
+
+.search input, span {
+    display: inline-block;
+}
+
+.container {
+    z-index: 100; 
+    border: 1px solid blue;
+    width : 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 20vh;
+ }
+
+.left {
+    float: left;
+}
+
+.add {
+    top: 10vh;
+    background-image: url('../assets/images/fondo1.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
